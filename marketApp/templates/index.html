@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HoneyBee's MarketPlace</title>
+    {% load static %}
+    <link rel='stylesheet' href="{% static 'css/styles.css' %}">
 </head>
 <body>
-    <h1>Welcome to HoneyBee's Market Place</h1>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <div class='main'>
+        <h1>Welcome to HoneyBee's Market Place</h1>
+        <p>Please login to see our products</p>
+        <form action='/login' method='post'>
+            <label for='userName'>Username</label>
+            <input name='userName' id='userName' type='text'>
+            <label for='password'>Password</label>
+            <input name='password' id='password' type='password'>
+            <button>Sign In</button>
+        </form>
+        <p>Don't have an account? <a href='#'>Sign Up</a></p>
+    </div>
+    <footer>
+        <p>Created by Melissa</p>
+    </footer>
 </body>
 </html>
