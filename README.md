@@ -1,5 +1,9 @@
 # djangoMarket
 
+Pip install the following to run locally
+django==2.2
+bcrypt
+
 
 ## Pages/routes needed:
 Log in page = index.html

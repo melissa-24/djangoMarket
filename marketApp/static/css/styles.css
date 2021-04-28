@@ -7,6 +7,12 @@ body {
 }
 body header {
   border: 3px solid black;
+  padding: 1em;
+}
+body header a {
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
 }
 body .main {
   border: 3px solid black;
@@ -42,4 +48,12 @@ body .main a {
 }
 body footer {
   border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+body footer p {
+  color: white;
 }
